@@ -29,6 +29,6 @@ Please submit code that adheres to the PSR-2 standard
 
 ## Requirements
 ```
-php 7.2
+php7
 composer (http://getcomposer.org)
 ```

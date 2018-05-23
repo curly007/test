@@ -7,7 +7,7 @@ it is working immediately like so:
 git clone git@github.com:leadingedgehealth/test.git
 cd test
 composer install
-phpunit
+./vendor/bin/phpunit
 ```
 
 If things are working correctly, then the above will fail in a controlled
@@ -26,6 +26,8 @@ The calculator will only be given and should only return `int` values.
 
 Please submit code that adheres to the PSR-2 standard 
 (https://www.php-fig.org/psr/).
+
+Of course all PHPUnit tests must pass for the solution.
 
 ## Requirements
 ```
